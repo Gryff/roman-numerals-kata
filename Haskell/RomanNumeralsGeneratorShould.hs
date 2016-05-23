@@ -17,3 +17,4 @@ main = hspec $ do
     describe "RomanNumeralsGenerator" $ do 
         testConvert "I" 1
         testConvert "II" 2
+        testConvert "III" 3
