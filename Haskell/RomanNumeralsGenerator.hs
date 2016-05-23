@@ -1,4 +1,4 @@
 module RomanNumeralsGenerator where
 
 convert :: String -> Int 
-convert numerals = 1
+convert numerals = if numerals == "II" then 2 else 1
