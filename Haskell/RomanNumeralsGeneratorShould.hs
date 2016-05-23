@@ -19,3 +19,4 @@ main = hspec $ do
         testConvert "II" 2
         testConvert "III" 3
         testConvert "V" 5
+        testConvert "VII" 7
